@@ -12,7 +12,7 @@ int main()
 	d2= roll();
 	point= d1+d2;
 	printf("D1 = %d , D2 = %d \n", d1,d2);
-	while (sum!=7){
+	while (1){
 		if (sum==0){
 			printf("Point = %d\n", point);
 			if(d1+d2==7 || d1+d2==11){
